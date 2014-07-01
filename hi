@@ -1,0 +1,17 @@
+Description='Automatically generated profile by wifi-menu'
+Interface=wlp3s0
+Connection=wireless
+Security=wpa-configsection
+IP=dhcp
+WPAConfigSection=(
+'ssid="UOW"'
+'scan_ssid=1'
+'proto=RSN WPA'
+'key_mgmt=WPA-EAP'
+'pairwise=CCMP'
+'group=TKIP'
+'phase2="auth=MSCHAPV2"'
+'eap=PEAP'
+'identity="byxxx"'
+'password="xxx"'
+)
